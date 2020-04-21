@@ -22,8 +22,8 @@ function submitIt(){
   alert("Your form is going to be submitted now.")});
 }
 function pressIt(){
-  return $(window).on('keydown', function(g){
-    if (g.which == 6){
+  return $(window).on('keydown', function(key){
+    if (key.which == 6){
     alert('G key was pressed down.')  
     }
 });
