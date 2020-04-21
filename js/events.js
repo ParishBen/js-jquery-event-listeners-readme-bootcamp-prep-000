@@ -9,6 +9,14 @@ submitIt();
 
 });
 
+function getIt(){
+  $('p').on('click', function(){
+    return alert("Hey");
+  });
+}
+function frameIt(){
+  return $('img').addClass('tasty');
+}
 
 
 /*
