@@ -18,7 +18,7 @@ function frameIt(){
   return $('img').addClass('tasty');
 }
 function submitIt(){
-  document.on('submit', function(){
+  form.on('submit', function(){
   alert("Your form is going to be submitted now.")});
 }
 
