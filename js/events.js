@@ -24,7 +24,7 @@ function submitIt(){
 function pressIt(){
   return $(window).on('keydown', function(key){
     if (key.which == 6){
-    alert('G key was pressed down.')  
+    alert('G key was pressed down.');
     }
 });
 }
