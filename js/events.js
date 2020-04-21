@@ -18,7 +18,8 @@ function frameIt(){
   return $('img').addClass('tasty');
 }
 function submitIt(){
-  
+  .on('submit', function(){
+  alert("Your form is submitted now.")}
 }
 
 /*
