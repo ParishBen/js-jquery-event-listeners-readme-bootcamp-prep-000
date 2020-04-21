@@ -23,7 +23,7 @@ function submitIt(){
 }
 function pressIt(){
   return $(document).on('keydown', function(key){
-    if (key.which == 6){
+    if (key.which == 71){
     alert('G key was pressed down.');
     }
 });
