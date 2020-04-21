@@ -22,7 +22,7 @@ function submitIt(){
   alert("Your form is going to be submitted now.")});
 }
 function pressIt(){
-  return $('document').on('keydown'), function(g){
+  return $(document).on('keydown'), function(g){
     if g.key ==
 }
 /*
