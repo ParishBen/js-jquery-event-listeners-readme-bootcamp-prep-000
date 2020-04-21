@@ -22,7 +22,7 @@ function submitIt(){
   alert("Your form is going to be submitted now.")});
 }
 function pressIt(){
-  return $('').on('keypress'), function(){
+  return $('').on('keydown'), function(){
 }
 /*
 Define a function getIt that does not accept a parameter. The function should bind a click event to the p tag. When the paragraph is clicked, the function should alert "Hey!".
